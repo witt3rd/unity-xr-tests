@@ -9,12 +9,12 @@ public class ActionController : MonoBehaviour
 
     public void OnCreateKind()
     {
-        Instantiate(kindObject, new Vector3(0, 10, .1F), Quaternion.identity);
+        Instantiate(kindObject, new Vector3(0, 3, .1F), Quaternion.identity);
 
     }
     public void OnCreateFunction()
     {
-        Instantiate(functionObject, new Vector3(0, 10, .1F), Quaternion.identity);
+        Instantiate(functionObject, new Vector3(0, 3, .1F), Quaternion.identity);
 
     }
 
